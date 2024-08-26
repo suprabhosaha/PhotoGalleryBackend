@@ -14,8 +14,8 @@ export default {
             type: 'string'
         },
         {
-            name: 'link',
-            title: 'Link',
+            name: 'destination',
+            title: 'Destination',
             type: 'url',
         },
         {
@@ -45,13 +45,13 @@ export default {
             name: 'save',
             title: 'Save',
             type: 'array',
-            of: [ {type: 'save'} ] 
+            of: [{ type: 'save' }]
         },
         {
             name: 'comments',
             title: 'Comments',
             type: 'array',
-            of: [ {type: 'comment'} ]
+            of: [{ type: 'comment' }]
         }
     ]
 }
